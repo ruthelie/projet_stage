@@ -193,6 +193,20 @@
         </div>
       </div>
     </div>
+    <div class="columns">
+      <div class="column">
+        <label for="">Votre date de naissance</label>
+        <b-field label="" label-position="inside" type="text">
+          <b-input placeholder="Date de naissance" rounded expanded></b-input>
+        </b-field>
+      </div>
+      <div class="column">
+        <label for="">Votre Age</label>
+        <b-field label="" label-position="inside" type="text">
+          <b-input placeholder="Age" rounded expanded></b-input>
+        </b-field>
+      </div>
+    </div>
   </div>
 </section>
 </template>
