@@ -173,25 +173,38 @@
         </b-field>
       </div>
     </div>
+
     <div class="columns">
-      <div class="column">
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Nom" rounded expanded></b-input>
-        </b-field>
-      </div>
-      <div class="column">
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Adresse" rounded expanded></b-input>
-        </b-field>
+        <div class="column">
+          <label for="">Choisissez votre genre :</label>
+        </div>
+        <div class="column">
+          <div class="block">
+            <b-radio v-model="radio"
+                name="name"
+                native-value="Flint">
+                Homme
+            </b-radio>
+            <b-radio v-model="radio"
+                name="name"
+                native-value="Flint">
+                Femme
+            </b-radio>
+        </div>
       </div>
     </div>
   </div>
 </section>
 </template>
-<script>
-export default {
 
-}
+<script>
+  export default {
+          data() {
+              return {
+                  radio: 'default'
+              }
+          }
+      }
 </script>
 
 <style>
@@ -213,5 +226,6 @@ export default {
 label{
   font-size: 20px;
 }
+
 </style>
 
