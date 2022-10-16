@@ -23,7 +23,7 @@
             </li>
             <li>
               <a href="#" style="font-size: 17px; color: white;">
-                <span class="icon is-small"><i class="fa fa-link"></i></span>Antecedents
+                <span class="icon is-small"><i class="fa fa-link"></i></span>Dossier des patients
               </a>
             </li>
           </ul>
@@ -63,6 +63,57 @@
                 <span class="icon is-small"><i class="fa fa-link"></i></span> Liste des docteurs
               </a>
             </li>
+            <li>
+              <a href="" style="font-size: 17px; color: white;">
+                <span class="icon is-small"><i class="fa fa-link"></i></span> Doosier des docteurs
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="" style="font-size: 20px; color: white;">
+            <span class="icon"><i class="fa fa-table"></i></span> Paramétrage
+          </a>
+          <ul>
+            <li>
+              <a href="#" style="font-size: 19px; color: white; ">
+                <span class="icon is-small"><i class="fa fa-link"></i></span> Médicament
+              </a>
+              <ul>
+                <li>
+                  <a href="#" style="font-size: 17px; color: white; ">
+                    <span class="icon is-small"><i class="fa fa-link"></i></span> Liste des médicaments
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" style="font-size: 19px; color: white; ">
+                <span class="icon is-small"><i class="fa fa-link"></i></span> Protocoles des reéducations
+              </a>
+              <ul>
+                <li>
+                  <a href="#" style="font-size: 17px; color: white; ">
+                    <span class="icon is-small"><i class="fa fa-link"></i></span> Liste des protocoles de reéducation
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" style="font-size: 17px; color: white; ">
+                <span class="icon is-small"><i class="fa fa-link"></i></span> Mode de paiement
+              </a>
+            </li>
+            <li>
+              <a href="#" style="font-size: 17px; color: white; ">
+                <span class="icon is-small"><i class="fa fa-link"></i></span> Terifs actes médicaux
+              </a>
+            </li>
+            <li>
+              <a href="#" style="font-size: 17px; color: white; ">
+                <span class="icon is-small"><i class="fa fa-link"></i></span> Types de dépenses
+              </a>
+            </li>
           </ul>
         </li>
         <li>
@@ -98,6 +149,7 @@
         </li>
       </ul>
     </aside>
+
     <div class="container column is-8">
       <main class="column">
         <div class="level">

@@ -17,7 +17,7 @@
           <ul>
             <li>
               <a href="#" style="font-size: 17px; color: white;">
-                <span class="icon is-small"><i class="fa fa-link"></i></span> Liste des consultations
+                <span class="icon is-small"><i class="fa fa-link"></i></span> Demander une consultation
               </a>
             </li>
           </ul>
@@ -29,22 +29,15 @@
           <ul>
             <li>
               <a href="#" style="font-size: 17px; color: white; ">
-                <span class="icon is-small"><i class="fa fa-link"></i></span> Liste des rendez-vous
+                <span class="icon is-small"><i class="fa fa-link"></i></span> Voir mes rendez-vous
               </a>
             </li>
           </ul>
         </li>
         <li>
           <a href="#" class="" style="font-size: 20px; color: white;">
-            <span class="icon"><i class="fa fa-table"></i></span> Patient
+            <span class="icon"><i class="fa fa-table"></i></span> Voir mon dossier médical
           </a>
-          <ul>
-            <li>
-              <a href="#" style="font-size: 17px; color: white; ">
-                <span class="icon is-small"><i class="fa fa-link"></i></span> Dossiers du patient
-              </a>
-            </li>
-          </ul>
         </li>
         <li>
           <a href="" class="" style="font-size: 20px; color: white;">
