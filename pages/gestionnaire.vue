@@ -1,5 +1,5 @@
 <template>
-  <section class="main-content columns">
+  <section class="main-content columns is-fullheight">
 
     <aside class="column is-3 is-narrow-mobile is-fullheight section is-hidden-mobile sidebar">
       <p class="menu-label is-hidden-touch">HOPITAL</p>
@@ -16,13 +16,13 @@
           </a>
           <ul>
             <li>
-              <a href="#" style="font-size: 17px; color: white;">
-                <span class="icon is-small"><i class="fa fa-link"></i></span> Liste des patients
+              <a href="/formulairePatientGest" style="font-size: 17px; color: white;">
+                <span class="icon is-small"><i class="fa fa-link"></i></span> Ajouter un patients
               </a>
             </li>
             <li>
               <a href="#" style="font-size: 17px; color: white;">
-                <span class="icon is-small"><i class="fa fa-link"></i></span>Antecedents
+                <span class="icon is-small"><i class="fa fa-link"></i></span> Liste des patients
               </a>
             </li>
           </ul>

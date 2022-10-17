@@ -148,6 +148,56 @@
         </li>
       </ul>
     </aside>
+
+    <div class="column is-6 mt-5">
+      <div class="columns">
+        <div class="column">
+          <label for="">Protocole</label>
+          <b-field label="" label-position="inside" type="text">
+            <b-input placeholder="Protocole" rounded expanded></b-input>
+          </b-field>
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column">
+          <label for="">Nombre de séances</label>
+          <b-field label="" label-position="inside" type="text">
+            <b-input placeholder="Nombre de séances" rounded expanded></b-input>
+          </b-field>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <label for="">Rythme</label>
+          <b-field label="" label-position="inside" type="text">
+            <b-input placeholder="Rythme" rounded expanded></b-input>
+          </b-field>
+        </div>
+      </div><br>
+      <div class="columns">
+        <div class="column">
+          <div class="level-item">
+            <button class="button is-fullwidth button">
+              <span class="icon"><i class="mdi mdi-gamepad-round-outline"></i></span>
+              <div></div>
+              Annuler
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <div class="level-item">
+            <button class="button is-fullwidth btn">
+              <span class="icon"><i class="mdi mdi-gamepad-round-outline"></i></span>
+              <div></div>
+              Ajouter
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 <script>
@@ -170,6 +220,19 @@ export default {
 }
 .menu-list a:hover{
   background-color: rgb(0, 92, 47) !important;
+  border-radius: 30px !important;
+}
+.btn{
+  background-color: rgb(0, 135, 68);
+  border-radius: 30px !important;
+  color: white;
+}
+.btn:hover{
+  color: white;
+  background-color:rgb(0, 92, 47) !important;
+
+}
+.button{
   border-radius: 30px !important;
 }
 </style>
