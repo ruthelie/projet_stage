@@ -108,69 +108,117 @@
       </div>
       <div class="column">
         <label for="">Votre nom</label>
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Nom" rounded expanded></b-input>
-        </b-field>
+        <p class="control has-icons-left has-icons-right">
+          <input class="input is-rounded" type="text" placeholder="Nom">
+          <span class="icon is-small is-left">
+            <i class="mdi mdi-account"></i>
+          </span>
+        </p>
       </div>
     </div>
 
     <div class="columns">
       <div class="column">
-        <label for="">Votre prénom</label>
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Prenom" rounded expanded></b-input>
-        </b-field>
+        <label for="">Votre prenom</label>
+        <p class="control has-icons-left has-icons-right">
+          <input class="input is-rounded" type="text" placeholder="Prenom">
+          <span class="icon is-small is-left">
+            <i class="mdi mdi-account"></i>
+          </span>
+        </p>
       </div>
       <div class="column">
         <label for="">Votre adresse</label>
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Adresse" rounded expanded></b-input>
-        </b-field>
+        <p class="control has-icons-left has-icons-right">
+          <input class="input is-rounded" type="text" placeholder="Adresse">
+          <span class="icon is-small is-left">
+            <i class="mdi mdi-map-marker"></i>
+          </span>
+        </p>
       </div>
     </div>
 
     <div class="columns">
       <div class="column">
-        <label for="">Votre numeréro de téléphone</label>
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Telephone" rounded expanded></b-input>
-        </b-field>
+        <label for="">Votre téléphone</label>
+        <p class="control has-icons-left has-icons-right">
+          <input class="input is-rounded" type="text" placeholder="Téléphone">
+          <span class="icon is-small is-left">
+            <i class="mdi mdi-phone"></i>
+          </span>
+        </p>
       </div>
       <div class="column">
         <label for="">Votre email</label>
-        <b-field label="" label-position="inside" type="email">
-          <b-input placeholder="Email" rounded expanded></b-input>
-        </b-field>
+        <p class="control has-icons-left has-icons-right">
+          <input class="input is-rounded" type="text" placeholder="Email">
+          <span class="icon is-small is-left">
+            <i class="mdi mdi-email"></i>
+          </span>
+        </p>
       </div>
     </div>
 
     <div class="columns">
       <div class="column">
-        <label for="">Votre date de naissance</label>
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Date de naissance" rounded expanded></b-input>
-        </b-field>
+        <label for="">Votre ndate de naissance</label>
+        <p class="control has-icons-left has-icons-right">
+          <input class="input is-rounded" type="text" placeholder="Date de naissance">
+          <span class="icon is-small is-left">
+            <i class="mdi mdi-calendar"></i>
+          </span>
+        </p>
       </div>
       <div class="column">
         <label for="">Votre Age</label>
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Age" rounded expanded></b-input>
-        </b-field>
+        <p class="control has-icons-left has-icons-right">
+          <input class="input is-rounded" type="text" placeholder="Age">
+          <span class="icon is-small is-left">
+            <i class="mdi mdi-calendar"></i>
+          </span>
+        </p>
+      </div>
+    </div>
+
+    <div class="columns">
+      <div class="column">
+        <label for="">Votre profession</label>
+        <p class="control has-icons-left has-icons-right">
+          <input class="input is-rounded" type="text" placeholder="Profession">
+          <span class="icon is-small is-left">
+            <i class="mdi mdi-file-document-edit-outline"></i>
+          </span>
+        </p>
+      </div>
+      <div class="column">
+        <label for="">Votre numero de carte d'identité</label>
+        <p class="control has-icons-left has-icons-right">
+          <input class="input is-rounded" type="text" placeholder="CNI">
+          <span class="icon is-small is-left">
+            <i class="mdi mdi-map"></i>
+          </span>
+        </p>
       </div>
     </div>
 
     <div class="columns">
       <div class="column">
         <label for="">Votre civilité</label>
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Civilité" rounded expanded></b-input>
-        </b-field>
+        <p class="control has-icons-left has-icons-right">
+          <input class="input is-rounded" type="text" placeholder="Civilité">
+          <span class="icon is-small is-left">
+            <i class="mdi mdi-human-male-female"></i>
+          </span>
+        </p>
       </div>
       <div class="column">
         <label for="">Le nom du medecin traitant</label>
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Nom du medecin traitant" rounded expanded></b-input>
-        </b-field>
+        <p class="control has-icons-left has-icons-right">
+          <input class="input is-rounded" type="text" placeholder="Medecin traitant">
+          <span class="icon is-small is-left">
+            <i class="mdi mdi-account"></i>
+          </span>
+        </p>
       </div>
     </div>
 
@@ -197,7 +245,7 @@
       <div class="column">
         <div class="level-item">
           <button class="button is-fullwidth button">
-            <span class="icon"><i class="mdi mdi-gamepad-round-outline"></i></span>
+            <span class="icon"><i class="mdi mdi-window-close"></i></span>
             <div></div>
             Annuler
           </button>

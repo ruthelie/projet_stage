@@ -150,123 +150,171 @@
       </ul>
     </aside>
 
-  <div class="column is-6 mt-5">
-    <div class="columns">
-      <div class="column">
-        <label for="">Le numéro du dossier du patient</label>
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Numero du dossier patient" rounded expanded></b-input>
-        </b-field>
-      </div>
-      <div class="column">
-        <label for="">Votre nom</label>
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Nom" rounded expanded></b-input>
-        </b-field>
-      </div>
-    </div>
 
-    <div class="columns">
-      <div class="column">
-        <label for="">Votre prénom</label>
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Prenom" rounded expanded></b-input>
-        </b-field>
-      </div>
-      <div class="column">
-        <label for="">Votre adresse</label>
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Adresse" rounded expanded></b-input>
-        </b-field>
-      </div>
-    </div>
-
-    <div class="columns">
-      <div class="column">
-        <label for="">Votre numeréro de téléphone</label>
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Telephone" rounded expanded></b-input>
-        </b-field>
-      </div>
-      <div class="column">
-        <label for="">Votre email</label>
-        <b-field label="" label-position="inside" type="email">
-          <b-input placeholder="Email" rounded expanded></b-input>
-        </b-field>
-      </div>
-    </div>
-
-    <div class="columns">
-      <div class="column">
-        <label for="">Votre date de naissance</label>
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Date de naissance" rounded expanded></b-input>
-        </b-field>
-      </div>
-      <div class="column">
-        <label for="">Votre Age</label>
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Age" rounded expanded></b-input>
-        </b-field>
-      </div>
-    </div>
-
-    <div class="columns">
-      <div class="column">
-        <label for="">Votre civilité</label>
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Civilité" rounded expanded></b-input>
-        </b-field>
-      </div>
-      <div class="column">
-        <label for="">Le nom du medecin traitant</label>
-        <b-field label="" label-position="inside" type="text">
-          <b-input placeholder="Nom du medecin traitant" rounded expanded></b-input>
-        </b-field>
-      </div>
-    </div>
-
-    <div class="columns">
+    <div class="column is-6 mt-5">
+      <div class="columns">
         <div class="column">
-          <label for="">Choisissez votre genre :</label>
+          <label for="">Le numéro du dossier du patient</label>
+          <b-field label="" label-position="inside" type="text">
+            <b-input placeholder="Numero du dossier patient" rounded expanded></b-input>
+          </b-field>
         </div>
         <div class="column">
-          <div class="block">
-            <b-radio v-model="radio"
-                name="name"
-                native-value="Flint">
-                Homme
-            </b-radio>
-            <b-radio v-model="radio"
-                name="name"
-                native-value="Flint">
-                Femme
-            </b-radio>
+          <label for="">Votre nom</label>
+          <p class="control has-icons-left has-icons-right">
+            <input class="input is-rounded" type="text" placeholder="Nom">
+            <span class="icon is-small is-left">
+              <i class="mdi mdi-account"></i>
+            </span>
+          </p>
         </div>
       </div>
-    </div>
 
-    <div class="columns">
-      <div class="column">
-        <div class="level-item">
-          <button class="button is-fullwidth button">
-            <span class="icon"><i class="mdi mdi-gamepad-round-outline"></i></span>
-            <div></div>
-            Annuler
-          </button>
+      <div class="columns">
+        <div class="column">
+          <label for="">Votre prenom</label>
+          <p class="control has-icons-left has-icons-right">
+            <input class="input is-rounded" type="text" placeholder="Prenom">
+            <span class="icon is-small is-left">
+              <i class="mdi mdi-account"></i>
+            </span>
+          </p>
+        </div>
+        <div class="column">
+          <label for="">Votre adresse</label>
+          <p class="control has-icons-left has-icons-right">
+            <input class="input is-rounded" type="text" placeholder="Adresse">
+            <span class="icon is-small is-left">
+              <i class="mdi mdi-map-marker"></i>
+            </span>
+          </p>
         </div>
       </div>
-      <div class="column">
-        <div class="level-item">
-          <button class="button is-fullwidth btn">
-            <span class="icon"><i class="mdi mdi-gamepad-round-outline"></i></span>
-            <div></div>
-            Ajouter
-          </button>
+
+      <div class="columns">
+        <div class="column">
+          <label for="">Votre téléphone</label>
+          <p class="control has-icons-left has-icons-right">
+            <input class="input is-rounded" type="text" placeholder="Téléphone">
+            <span class="icon is-small is-left">
+              <i class="mdi mdi-phone"></i>
+            </span>
+          </p>
+        </div>
+        <div class="column">
+          <label for="">Votre email</label>
+          <p class="control has-icons-left has-icons-right">
+            <input class="input is-rounded" type="text" placeholder="Email">
+            <span class="icon is-small is-left">
+              <i class="mdi mdi-email"></i>
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column">
+          <label for="">Votre ndate de naissance</label>
+          <p class="control has-icons-left has-icons-right">
+            <input class="input is-rounded" type="text" placeholder="Date de naissance">
+            <span class="icon is-small is-left">
+              <i class="mdi mdi-calendar"></i>
+            </span>
+          </p>
+        </div>
+        <div class="column">
+          <label for="">Votre Age</label>
+          <p class="control has-icons-left has-icons-right">
+            <input class="input is-rounded" type="text" placeholder="Age">
+            <span class="icon is-small is-left">
+              <i class="mdi mdi-calendar"></i>
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column">
+          <label for="">Votre profession</label>
+          <p class="control has-icons-left has-icons-right">
+            <input class="input is-rounded" type="text" placeholder="Profession">
+            <span class="icon is-small is-left">
+              <i class="mdi mdi-file-document-edit-outline"></i>
+            </span>
+          </p>
+        </div>
+        <div class="column">
+          <label for="">Votre numero de carte d'identité</label>
+          <p class="control has-icons-left has-icons-right">
+            <input class="input is-rounded" type="text" placeholder="CNI">
+            <span class="icon is-small is-left">
+              <i class="mdi mdi-map"></i>
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column">
+          <label for="">Votre civilité</label>
+          <p class="control has-icons-left has-icons-right">
+            <input class="input is-rounded" type="text" placeholder="Civilité">
+            <span class="icon is-small is-left">
+              <i class="mdi mdi-human-male-female"></i>
+            </span>
+          </p>
+        </div>
+        <div class="column">
+          <label for="">Le nom du medecin traitant</label>
+          <p class="control has-icons-left has-icons-right">
+            <input class="input is-rounded" type="text" placeholder="Medecin traitant">
+            <span class="icon is-small is-left">
+              <i class="mdi mdi-account"></i>
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="columns">
+          <div class="column">
+            <label for="">Choisissez votre genre :</label>
+          </div>
+          <div class="column">
+            <div class="block">
+              <b-radio v-model="radio"
+                  name="name"
+                  native-value="Flint">
+                  Homme
+              </b-radio>
+              <b-radio v-model="radio"
+                  name="name"
+                  native-value="Flint">
+                  Femme
+              </b-radio>
+          </div>
+        </div>
+      </div><br>
+      <div class="columns">
+        <div class="column">
+          <div class="level-item">
+            <button class="button is-fullwidth button">
+              <span class="icon"><i class="mdi mdi-window-close"></i></span>
+              <div></div>
+              Annuler
+            </button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="level-item">
+            <button class="button is-fullwidth btn">
+              <span class="icon"><i class="mdi mdi-gamepad-round-outline"></i></span>
+              <div></div>
+              Ajouter
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 </section>
 </template>
 
